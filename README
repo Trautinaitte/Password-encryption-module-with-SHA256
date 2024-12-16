@@ -1,11 +1,9 @@
-Open a Terminal, and do :
+Open Terminal then go to the project file and do :
 
-cd HSM
+
 docker build -t hsm .
 docker run -p 9899:9898 hsm
 
 Then run the SQL file named "Database_id" and go on Hash module to change the global var named sqlpassword, with your own sql server password
 
 The folder contains the Application server, which is the python file named "Hash_module_App". Run directly the code, and interact with the Terminal.
-
-
